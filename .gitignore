@@ -3,7 +3,8 @@
 
 # 忽略模型文件
 *.bin
-data/
+data/output/
+data/input/
 
 # 忽略隐私文件
 dsApiKey.py
