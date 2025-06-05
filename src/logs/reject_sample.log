@@ -1,0 +1,24 @@
+2025-06-05 15:32:36 [INFO] This is the 1 th question.
+2025-06-05 15:32:36 [INFO] The 0 th answer's score is: 1.0.
+2025-06-05 15:32:36 [ERROR] Error: 404, 
+2025-06-05 15:32:36 [ERROR] Error scoring answer 0: 'NoneType' object is not subscriptable
+2025-06-05 15:32:36 [INFO] The 1 th answer's score is: 1.0.
+2025-06-05 15:32:36 [ERROR] Error: 404, 
+2025-06-05 15:32:36 [ERROR] Error scoring answer 1: 'NoneType' object is not subscriptable
+2025-06-05 15:32:36 [INFO] The 2 th answer's score is: 1.0.
+2025-06-05 15:32:36 [ERROR] Error: 404, 
+2025-06-05 15:32:36 [ERROR] Error scoring answer 2: 'NoneType' object is not subscriptable
+2025-06-05 15:32:36 [INFO] The 3 th answer's score is: 1.0.
+2025-06-05 15:32:36 [ERROR] Error: 404, 
+2025-06-05 15:32:36 [ERROR] Error scoring answer 3: 'NoneType' object is not subscriptable
+2025-06-05 15:32:36 [INFO] The 4 th answer's score is: 1.0.
+2025-06-05 15:32:36 [ERROR] Error: 404, 
+2025-06-05 15:32:36 [ERROR] Error scoring answer 4: 'NoneType' object is not subscriptable
+2025-06-05 15:32:37 [INFO] The 5 th answer's score is: 0.1.
+2025-06-05 15:32:37 [INFO] This is the 2 th question.
+2025-06-05 15:32:37 [INFO] The 0 th answer's score is: 0.1.
+2025-06-05 15:32:37 [INFO] The 1 th answer's score is: 0.1.
+2025-06-05 15:32:37 [INFO] The 2 th answer's score is: 0.1.
+2025-06-05 15:32:37 [INFO] The 3 th answer's score is: 0.1.
+2025-06-05 15:32:37 [INFO] The 4 th answer's score is: 0.1.
+2025-06-05 15:32:37 [INFO] The 5 th answer's score is: 0.1.
