@@ -16,6 +16,7 @@
 
 ## 📦 项目结构（Project Structure）
 
+```text
 RejectSample
 ├── README.md
 ├── config
