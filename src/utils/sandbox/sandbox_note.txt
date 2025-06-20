@@ -1,0 +1,14 @@
+代码数据处理：
+- 数据包含：问题、代码和测试用例；
+- 使用字节sandBox进行代码测试，将其答案与数据中测试用例答案进行比较，从而得出代码是否正确。
+
+输入：可构造含有 问题、代码和测试用例等结构的jsonl
+输出：sucess.jsonl和fail.jsonl
+
+目前仅针对cpp进行了测试，尚需要处理：
+（1）其他语言，如python、java等；
+（2）目前针对stdin做了处理，可能还需要注意print等类型
+
+使用方式：
+- 首先部署sandbox服务，docker拉起
+- 然后执行python3 testCases.py 
