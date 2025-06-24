@@ -1,0 +1,13 @@
+if(instruction following) data eval process pipeline:
+(1)process the input data into if-eval-data format(contains input.jsonl and input_reponse_xx.jsonl);
+(2)modify run.bash: input,input_response path and output dir, then exexute ./instruction_following_eval/run.bash.
+it will eval the if performance, you can focus on the strict prompt score.
+
+env build(for use alone):
+python3 -m env ifEvalEnv
+source ifEvalEnv/bin/activate
+pip install XXX
+...
+
+
+
