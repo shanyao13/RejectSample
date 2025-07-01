@@ -3,7 +3,7 @@ import os
 import time
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from gpt_o3_service import getMathclassFromO3
+from gpt_4o_service import getMathclassFrom4o
 
 category_names = {
     0: 'others',
@@ -27,7 +27,7 @@ def classify_and_write(data, file_handles, locks, line_num):
 
     try:
         with semaphore:
-            category = int(getMathclassFromO3(content))
+            category = int(getMathclassFrom4o(content))
 
         if category not in category_names:
             print(f"[Line {line_num}] ❌ 无效分类编号: {category}")

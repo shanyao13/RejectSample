@@ -1,0 +1,24 @@
+20250612-v1:
+- 脚本解释：
+duplicate.py为最终去重去污版本，先使用哈希去重复，然后使用n-gram去重，（n, threshold）设置为（64，0.95）测试效果较好。
+
+- 环境搭建示例：
+python3 -m venv myenv
+source myenv/bin/activate
+pip install zstandard datasketch
+
+deactivate
+
+- 使用说明
+示例：python3 duplicate.py --input_path ./data/100_math_v1.1.jsonl.zst --output_dir ./data/duplicate2/
+说明：--input_path 要处理的jsonl.zst路径，
+      --output_dir 去重/相似之后保存目录，
+           包含三个文件：.dedup.jsonl 去重/相似之后文件 
+                         .dupInfo.txt 重复/相似行详细信息
+                         .dup.jsonl  重复内容（参考，可忽略）
+
+
+20250612-v2:
+add:
+- 增加对jsonl格式的支持
+- 对于匹配要去重的内容，需根据jsonl具体格式修改：content = data['input'][0]['content']
